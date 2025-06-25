@@ -1,4 +1,4 @@
-import { Mail, Phoneap, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, Github, Linkedin } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" className="mt-16 px-6 pb-12" data-aos='fade-up'>
