@@ -37,12 +37,12 @@ const Contact = () => {
           <div className="contact-row">
             <MdPhone className="contact-icon" />
             <span className="contact-label">Phone:</span>
-            <a href="tel:+919876543210" className="contact-value">+91 9876543210</a>
+            <a href="tel:+919876543210" className="contact-value">+91 98000000xx</a>
           </div>
           <div className="contact-row">
             <FaGithub className="contact-icon" />
             <span className="contact-label">GitHub:</span>
-            <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer" className="contact-value">
+            <a href="https://github.com/nirajx220" target="_blank" rel="noreferrer" className="contact-value">
               github.com/yourgithub
             </a>
           </div>
