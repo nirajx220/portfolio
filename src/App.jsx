@@ -5,11 +5,14 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
+
 function App() {
   return (
     <>
+   
       <Navbar />
-      <main className="flex flex-col items-center min-h-screen">
+      <main>
         <About />
         <Skills />
         <Projects />
