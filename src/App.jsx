@@ -8,14 +8,16 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <div className="bg-blue-500 text-white p-4">If this is blue, Tailwind is working!</div>
       <Navbar />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <main className="flex flex-col items-center min-h-screen">
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
     </>
   );
 }
+
 export default App;
