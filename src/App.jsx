@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+    <div className="bg-blue-500 text-white p-4">If this is blue, Tailwind is working!</div>
       <Navbar />
       <About />
       <Skills />
